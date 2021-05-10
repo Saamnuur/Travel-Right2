@@ -22,9 +22,10 @@ body {
     font-size: 3rem;}
 }
 
-#england {
+#england.btn.btn-lg {
     position: relative;
-    color: #fff;
+    color: black;
+    background-color: #82b1ff;
     font-size: 1.2rem;
     border-radius: 16px;
     top: 0;
