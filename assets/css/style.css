@@ -1,0 +1,14 @@
+body {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+/*Landing page*/
+
+#bg-img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    z-index: -1;
+}
