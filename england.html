@@ -26,13 +26,39 @@
 <body>
 <!--Navbar inspired by w3schools-->
 <div class="dropdown">
-    <button class="dropbtn">Dropdown</button>
-    <div class="dropdown-content">
-      <a href="#">Home</a>
+    <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+    <div id="myDropdown" class="dropdown-content">
       <a href="#">Scotland</a>
       <a href="#">Wales</a>
+      <a href="contactus.html">Contact Us</a>
     </div>
   </div>
+
+  <section class="container-fluid">
+    <div class="row">
+        <div class="col-md-6 col-sm-1">
+
+        </div>
+    </div>
+  </section>
+
+  <footer class="container-fluid">
+        <div id="footer-details" class="row">
+            <div class="col-sm-4">
+                <h5 class=" social-media">MySocial</h5>
+                <ul class="list-inline social-links">
+                    <li><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a target="_blank" href="#"><i class="fa fa-instagram"></i></a></li>
+                    <li><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a target="_blank" href="#"><i class="fa fa-pinterest"></i></a></li>
+            </div>
+        </div>
+  </footer>
+  <script>
+      var APIKey = "AIzaSyAK7zm7blz0WWO3gniRpae1lp4Gc_1meYc";
+  </script>
+  <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAK7zm7blz0WWO3gniRpae1lp4Gc_1meYc&callback=initMap"></script>
 </body>
 
 </html>
