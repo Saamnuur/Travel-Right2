@@ -22,12 +22,13 @@ body {
     font-size: 3rem;}
 }
 
-#england.btn.btn-lg {
-    position: relative;
+.country-buttons {
     color: black;
     background-color: #82b1ff;
-    font-size: 1.2rem;
-    border-radius: 16px;
-    top: 0;
-    opacity: 0;
+    border: none;
+    outline: none;
+}
+
+.btn:hover {
+    color: white;
 }
